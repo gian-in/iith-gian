@@ -11,7 +11,7 @@ const LatestCourses = () => {
     axios
       .get(`${import.meta.env.VITE_API_FP2}/courses/latest`)
       .then((res) => {
-        setLatestCourses(res.data);
+        setLatestCourses(res.data || []);
       })
       .catch((err) => {
         console.log(err);
