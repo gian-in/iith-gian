@@ -56,14 +56,14 @@ const Header = () => {
               >
                 <div className="space-x-2 flex items-center sm:space-x-8">
                   <img
-                    src="/assets/IITHlogo.webp"
+                    src="assets/IITHlogo.webp"
                     alt="IITH"
                     width={180}
                     height={20}
                     className="dark:block"
                   />
                   <img
-                    src="/assets/gian.webp"
+                    src="assets/gian.webp"
                     alt="GIAN"
                     width={120}
                     height={20}
